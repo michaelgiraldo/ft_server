@@ -34,7 +34,7 @@ Take Away:
 There is docker tag for "buster-backports" us that. DO NOT USE buster tag for the docker image
 
 EXAMPLE for DOCKERFILE
-# debian buster-packports is used for phpmyadmin
+debian buster-packports is used for phpmyadmin
 FROM      debian:buster-backports
  
 Read Here:
