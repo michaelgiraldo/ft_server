@@ -32,7 +32,7 @@ You need to use Debian Buster BACKPORT repos. Read about it here https://backpor
 https://hub.docker.com/_/debian
 
 # Take Away:
-There is docker tag for "buster-backports" us that. DO NOT USE buster tag for the docker image
+There is docker tag for "buster-backports" us that. DO NOT USE "buster" tag for the docker image
 
 EXAMPLE for DOCKERFILE
 FROM      debian:buster-backports
