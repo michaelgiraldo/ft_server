@@ -1,12 +1,12 @@
 # ft_server
 
-#Read Here:
+# Read Here:
 https://harm-smits.github.io/42docs/projects/ft_server
 
-#Take Away: 
+# Take Away: 
 "Your Docker container must configure / download / install all the services when you run the docker build command, you ought not configure ANY services or change ANY files after using docker run as this mitigates the entire point of Docker."
 
-#Read Here:
+# Read Here:
 http://nginx.org/en/docs/
 http://nginx.org/en/docs/http/ngx_http_core_module.html#listen
 http://nginx.org/en/docs/http/ngx_http_core_module.html#location
@@ -15,29 +15,28 @@ http://nginx.org/en/docs/http/ngx_http_fastcgi_module.html#fastcgi_pass
 http://nginx.org/en/docs/http/ngx_http_ssl_module.html
 http://nginx.org/en/docs/http/ngx_http_ssl_module.html#ssl
 
-#Take Away:
+# Take Away:
 Read the NGINX Documentation to write nginx configuration file
 
-#Read Here: 
+# Read Here: 
 https://packages.debian.org/search?suite=default&section=all&arch=any&searchon=names&keywords=phpmyadmin
 ** Package phpmyadmin
 ** buster-backports (web): MySQL web administration tool
 ** 4:4.9.5+dfsg1-2~bpo10+1: all
 
-#Take Away:
+# Take Away:
 You need to use Debian Buster BACKPORT repos. Read about it here https://backports.debian.org/
 
-#Read Here:
+# Read Here:
 https://hub.docker.com/_/debian
 
-#Take Away:
+# Take Away:
 There is docker tag for "buster-backports" us that. DO NOT USE buster tag for the docker image
 
 EXAMPLE for DOCKERFILE
-debian buster-packports is used for phpmyadmin
 FROM      debian:buster-backports
  
-#Read Here:
+# Read Here:
 https://wiki.debian.org/DebianInstaller/Preseed
 
 #Take Away:
