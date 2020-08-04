@@ -40,18 +40,18 @@ FROM      debian:buster-backports
 # Read Here:
 https://wiki.debian.org/DebianInstaller/Preseed
 
-#Take Away:
+# Take Away:
 Learn about preseeding answers for question asked during installation
  
-#OpenSSL documentation:
+# OpenSSL documentation:
 https://www.openssl.org/docs/manmaster/man1/
 
-#Mariadb SQL (MySQL) documentation:
+# Mariadb SQL (MySQL) documentation:
 https://mariadb.com/kb/en/create-user/
 
-#Take away:
+# Take away:
 Create wordpess user and dbadmin user that mimic sql root user
 
-#Docker documentation:
+# Docker documentation:
 https://docs.docker.com/engine/reference/builder/ << Dockerfile reference
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/  << Best practices for writing Dockerfiles
