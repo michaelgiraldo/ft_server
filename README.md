@@ -20,6 +20,7 @@ Read the NGINX Documentation to write nginx configuration file
 
 # Read Here: 
 https://packages.debian.org/search?suite=default&section=all&arch=any&searchon=names&keywords=phpmyadmin
+
 ** Package phpmyadmin
 ** buster-backports (web): MySQL web administration tool
 ** 4:4.9.5+dfsg1-2~bpo10+1: all
